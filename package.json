@@ -1,0 +1,18 @@
+{
+  "name": "couchbase-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --inspect=0.0.0.0 src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "couchbase": "^3.2.0",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.12"
+  }
+}
